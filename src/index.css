@@ -27,3 +27,67 @@ body{
   text-shadow: 3px 3px 6px rgb(59, 8, 2);
   
 }
+
+.stopwatch{
+  display: block;
+  text-align: center;
+  max-width: 30%;
+  border: 2px solid rgb(154, 154, 154);
+  border-radius: 50px;
+  padding: 30px;
+  background-color: #00000033;
+  backdrop-filter: blur(12px);
+  margin: 60px auto;
+  
+}
+
+.display{
+
+  color: rgb(79, 79, 79);
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+  font-family: monospace;
+  text-shadow: 3px 3px 6px rgb(73, 27, 22);
+  margin-bottom: 25px;
+
+}
+
+.controle button{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border:1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.5 ease;
+
+}
+
+.startbutton{
+  background-color: rgb(66, 232, 16);
+}
+
+.startbutton:hover{
+  background-color: rgb(8, 157, 52);
+}
+
+.stopbutton{
+  background-color: rgb(241, 10, 10);
+}
+
+.stopbutton:hover{
+  background-color: rgb(142, 7, 7);
+}
+
+.resetbutton{
+  background-color: rgb(10, 138, 229);
+}
+
+.resetbutton:hover{
+  background-color: rgb(4, 82, 130);
+}
+
